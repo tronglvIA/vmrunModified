@@ -7,7 +7,7 @@ set vmrun="'Path_to vmrun.exe'"
 
 # Usage
 
-'''
+```
 usage: vmwareauto.bat [/Option] [PARAMETERS]
 
 options:
@@ -22,7 +22,7 @@ options:
 				revertToSnapshot with name all VMs are running or specify VM and start
    /deleteSnapshotvm	[all | {path to vmx file}]
 				deleteSnapshot with name all on VMs are running or specify VM and start
-'''
+```
 
 # Example
 
