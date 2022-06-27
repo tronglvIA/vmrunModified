@@ -27,11 +27,11 @@ options:
 # Example
 
 Starting a virtual machine with Workstation on a Windows host:
-'''
+```
 $ vmwareauto.bat /startvm D:\vmware\win7.vmx
-'''
+```
 
 Creating a snapshot of all virtual machine are running with Workstation on a Windows host:
-'''
+```
 $ vmwareauto.bat /suspendvm all
-'''
+```
