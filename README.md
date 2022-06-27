@@ -3,11 +3,11 @@
 # Setup
 
 Replace Path_to vmrun.exe depend on where VMware Workstation was installed: 
-set vmrun="'Path_to vmrun.exe'"
+set vmrun="`Path_to vmrun.exe`"
 
 # Usage
 
-'''
+```
 usage: vmwareauto.bat [/Option] [PARAMETERS]
 
 options:
@@ -22,16 +22,16 @@ options:
 				revertToSnapshot with name all VMs are running or specify VM and start
    /deleteSnapshotvm	[all | {path to vmx file}]
 				deleteSnapshot with name all on VMs are running or specify VM and start
-'''
+```
 
 # Example
 
 Starting a virtual machine with Workstation on a Windows host:
-'''
+```
 $ vmwareauto.bat /startvm D:\vmware\win7.vmx
-'''
+```
 
 Creating a snapshot of all virtual machine are running with Workstation on a Windows host:
-'''
+```
 $ vmwareauto.bat /suspendvm all
-'''
+```
