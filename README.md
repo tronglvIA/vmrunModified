@@ -3,7 +3,7 @@
 # Setup
 
 Replace Path_to vmrun.exe depend on where VMware Workstation was installed: 
-set vmrun="'Path_to vmrun.exe'"
+set vmrun="`Path_to vmrun.exe`"
 
 # Usage
 
